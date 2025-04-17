@@ -36,16 +36,15 @@ If you see this the we are good and gateway is running on your system.
 2. On the top-left side, click on the drop-down arrow and the "**Save a copy**" then "**Save copy**" button to create a new copy for you. We are doing this so that our changes don't effect other participants.
 <img width="723" alt="Screenshot 2025-04-16 at 11 48 15 PM" src="https://github.com/user-attachments/assets/e36c532d-bfb1-4541-a170-925a88f3ee2a" />
 <br/><br/>
-<img width="442" alt="Screenshot 2025-04-16 at 11 51 21 PM" src="https://github.com/user-attachments/assets/79d7a373-6a10-43bb-9450-a7a2d6fc7d20" />
+<img width="442" alt="Screenshot 2025-04-16 at 11 51 21 PM" src="https://github.com/user-attachments/assets/79d7a373-6a10-43bb-9450-a7a2d6fc7d20" /><br/><br/>
 
 
 3. Press `F1` or `Function + F1` and then type and select "Private Wokwi IoT Gateway" to enable the private IOT gateway that we setup before on our system.
 <img width="829" alt="Screenshot 2025-04-17 at 12 01 50 AM" src="https://github.com/user-attachments/assets/5a1333d6-a8a2-4a5d-a14b-1ba93838b94b" />
 
-5. Locate the patient information section in the code on the left-panel:
-<img width="456" alt="Screenshot 2025-04-16 at 11 52 52 PM" src="https://github.com/user-attachments/assets/27be5bfc-3f30-4790-b5f7-1ce20174600d" />
-
-Replace **John Doe** and **patient001** with your name and ID.
+4. Locate the patient information section in the code on the left-panel:<br/><br/>
+<img width="456" alt="Screenshot 2025-04-16 at 11 52 52 PM" src="https://github.com/user-attachments/assets/27be5bfc-3f30-4790-b5f7-1ce20174600d" /><br/><br/>
+Replace **John Doe** and **patient001** with your name and ID.<br/><br/>
 
 5. Click on the green "**Start the simulation**" button and the patient monitor system should start and you should be able to see simulated patient's vital data.
 
