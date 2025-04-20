@@ -1,4 +1,4 @@
-# IBA - IOT Workshop
+# Connected healthcare: IoT, Cloud, and Security in digital age
 
 ### 🌟 Overview
 This hands-on workshop introduces healthcare professionals to IoT and cloud technologies in modern healthcare through a practical patient monitoring system simulation. Participants will learn how connected medical devices work, explore cloud integration in healthcare, and understand security considerations in medical IoT systems.
@@ -6,53 +6,73 @@ This hands-on workshop introduces healthcare professionals to IoT and cloud tech
 ![WhatsApp Image 2025-04-16 at 23 09 13](https://github.com/user-attachments/assets/b2615d2c-d955-4522-8044-af4600dbdf6e)
 
 ### 🎯 Learning Outcomes
-- ✅ Understand the role of IoT and cloud technologies in modern healthcare
-- ✅ Recognize key security risks and challenges in connected medical systems
-- ✅ Explore real-world healthcare applications through interactive activities
-- ✅ Learn best practices for ensuring system reliability and data safety
+✅ Understand the role of IoT and cloud technologies in modern healthcare
+
+✅ Recognize key security risks and challenges in connected medical systems
+
+✅ Explore real-world healthcare applications through interactive activities
+
+✅ Learn best practices for ensuring system reliability and data safety
 
 ### 💻 Prerequisites
-- Basic understanding of computer operations
-- Laptop with internet access
-- Administrator privileges to install software
+- Fundamental knowledge of computer operations and navigation
+- Laptop running Windows OS with stable internet connection
+- Administrator-level privileges to install and configure required software
 ------------------
 
 
 ## 🛠️ Workshop Instructions
+### Wokwi Account
+For our patient monitoring system simulation, we'll leverage Wokwi—a powerful online electronics simulator specifically designed for rapid prototyping and comprehensive testing of IoT projects.
+
+1. Visit https://wokwi.com/ and create a new account.
+<img width="679" alt="Screenshot 2025-04-21 at 3 41 20 AM" src="https://github.com/user-attachments/assets/3e486e22-fe23-4647-add9-f21aca4ffe46" />
+<br/><br/>
+2. Join our dedicated classroom using this link: https://wokwi.com/classroom/join?code=yLQ9TsuZn4 
+<br/><br/>
+<img alt="Screenshot 2025-04-21 at 3 41 20 AM" src="https://github.com/user-attachments/assets/c6ce50e5-19fa-4b54-8d51-30209215e588" />
+<br/><br/>
+<img alt="Screenshot 2025-04-21 at 3 41 20 AM" src="https://github.com/user-attachments/assets/20abccb1-6c48-41a6-98a0-86f1087b4254" />
+<br/><br/>
+
 ### Install Wokwi Private Gateway
-To ensure reliable connectivity during the workshop simulation we'll use the Wokwi Private Gateway. To use wokwi private gateway we'll need a paid Wokwi account.
-**[WE CAN GO WITH CLASSROOM ACCOUNT HERE OR WE GO WITH PUBLC GATEWAY - WAITING FOR WOKWI RESPONSE]**
+To ensure reliable connectivity during the workshop simulation we'll use the Wokwi Private Gateway. 
 
-Download and run the appropriate release for your operating system from: https://github.com/wokwi/wokwigw/releases
-
-If you see this the we are good and gateway is running on your system.
-
-<img width="589" alt="Screenshot 2025-04-17 at 12 14 30 AM" src="https://github.com/user-attachments/assets/7ce54a2e-fe9f-4c36-94c1-a74e3d316b5c" />
-
+1. Download the gateway application (wokwigw.exe) from: https://drive.google.com/file/d/1BgdI2S2ggcG5d6DtUcaOdjBLsbAlhyiJ/view?usp=sharing
+2. Run the downloaded file. You should see this confirmation screen indicating successful installation:
+<br/><br/>
+<img width="589" alt="Wokwi Gateway Running" src="https://github.com/user-attachments/assets/7ce54a2e-fe9f-4c36-94c1-a74e3d316b5c" />
+<br/><br/>
+*Additional gateway information is available at https://github.com/wokwi/wokwigw (not required for the workshop)*
+<br/><br/>
 
 ### Simulation Setup
-1. Log in to the shared Wokwi account at https://wokwi.com/
+Now let's set up your personal patient monitoring system:
 
-2. Open the Wokwi project: Patient Monitor Simulation: https://wokwi.com/projects/427997258929717249
+1. Open our Wokwi project template: https://wokwi.com/projects/427997258929717249
 
-3. On the top-left side, click on the drop-down arrow and the "**Save a copy**" then "**Save copy**" button to create a new copy for you. We are doing this so that our changes don't effect other participants.
+2. Create your own copy by clicking the dropdown arrow in the top-left corner, then ***Save a copy*** followed by ***Save copy***. This ensures your changes won't affect other participants.
 <img width="723" alt="Screenshot 2025-04-16 at 11 48 15 PM" src="https://github.com/user-attachments/assets/e36c532d-bfb1-4541-a170-925a88f3ee2a" />
 <br/><br/>
 <img width="442" alt="Screenshot 2025-04-16 at 11 51 21 PM" src="https://github.com/user-attachments/assets/79d7a373-6a10-43bb-9450-a7a2d6fc7d20" /><br/><br/>
 
 
-4. Press `F1` or `Function + F1` and then type and select "Private Wokwi IoT Gateway" to enable the private IOT gateway that we setup before on our system.
+3. Enable the private gateway by pressing `F1 (or Function + F1)`, then typing and selecting ***Private Wokwi IoT Gateway***.
 <img width="829" alt="Screenshot 2025-04-17 at 12 01 50 AM" src="https://github.com/user-attachments/assets/5a1333d6-a8a2-4a5d-a14b-1ba93838b94b" />
 
-5. Locate the patient information section in the code on the left-panel:<br/><br/>
+4. Personalize your simulation by finding the patient information section in the code editor:<br/><br/>
 <img width="456" alt="Screenshot 2025-04-16 at 11 52 52 PM" src="https://github.com/user-attachments/assets/27be5bfc-3f30-4790-b5f7-1ce20174600d" /><br/><br/>
 Replace **John Doe** and **patient001** with your name and ID.<br/><br/>
 
-6. Click on the green "**Start the simulation**" button and the patient monitor system should start and you should be able to see simulated patient's vital data.
+5. Launch your simulation by clicking the green "Start the simulation" button. Your patient monitoring dashboard will initialize and display vital signs.
 
 <img width="270" alt="Screenshot 2025-04-16 at 11 56 22 PM" src="https://github.com/user-attachments/assets/aa7407df-2b59-4fc7-bc09-7aea4ab68802" />
 <br/><br/>
-<img width="854" alt="Screenshot 2025-04-17 at 12 06 16 AM" src="https://github.com/user-attachments/assets/0a1c1e73-1d80-43df-ab06-ab7013c54c55" />
+<img width="1051" alt="Screenshot 2025-04-21 at 4 00 18 AM" src="https://github.com/user-attachments/assets/ce9260ef-ddb2-4588-8b1e-9a8e142a8980" />
+<br/><br/>
+These are the different sensors, where you can increase or decrease the simulated vital signs just by moving these knobs clock or anti-clock wise.
+<br/><br/>
+<img width="436" alt="Screenshot 2025-04-21 at 4 01 43 AM" src="https://github.com/user-attachments/assets/6f7fad5b-038b-4db1-92e9-acfb108cc5dc" />
 <br/><br/>
 
 ### Hardware Components:
