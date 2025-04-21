@@ -23,7 +23,7 @@ This hands-on workshop introduces healthcare professionals to IoT and cloud tech
 
 ## 🛠️ Workshop Instructions
 ### Wokwi Account
-For our patient monitoring system simulation, we'll leverage Wokwi—a powerful online electronics simulator specifically designed for rapid prototyping and comprehensive testing of IoT projects.
+For our patient monitoring system simulation, we'll leverage Wokwi—a powerful online electronics simulator specifically designed for rapid prototyping and testing of IoT projects.
 
 1. Visit https://wokwi.com/ and create a new account.
 <img width="679" alt="Screenshot 2025-04-21 at 3 41 20 AM" src="https://github.com/user-attachments/assets/3e486e22-fe23-4647-add9-f21aca4ffe46" />
