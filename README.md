@@ -2,8 +2,9 @@
 
 ### 🌟 Overview
 This hands-on workshop introduces healthcare professionals to IoT and cloud technologies in modern healthcare through a practical patient monitoring system simulation. Participants will learn how connected medical devices work, explore cloud integration in healthcare, and understand security considerations in medical IoT systems.
-
-![WhatsApp Image 2025-04-16 at 23 09 13](https://github.com/user-attachments/assets/b2615d2c-d955-4522-8044-af4600dbdf6e)
+<br/><br/>
+<img width="700" alt="Screenshot 2025-04-21 at 3 41 20 AM" src="https://github.com/user-attachments/assets/b2615d2c-d955-4522-8044-af4600dbdf6e" />
+<br/><br/>
 
 ### 🎯 Learning Outcomes & Workshop Outline
 <img width="800" alt="Screenshot 2025-04-21 at 3 41 20 AM" src="https://github.com/user-attachments/assets/f841bd70-836b-455b-9fc4-8081aeceb07f" />
