@@ -23,7 +23,7 @@ For our patient monitoring system simulation, we'll leverage Wokwi—a powerful 
 1. Visit https://wokwi.com/ and create a new account. *(If you don't get email from Wokwi, check in Spam/Junk folder)*
 <img width="679" alt="Screenshot 2025-04-21 at 3 41 20 AM" src="https://github.com/user-attachments/assets/3e486e22-fe23-4647-add9-f21aca4ffe46" />
 <br/><br/>
-2. Join our dedicated classroom using this link: https://wokwi.com/classroom/join?code=yLQ9TsuZn4 
+2. Join our dedicated classroom using this link: [link here]
 <br/><br/>
 <img width="629" alt="Screenshot 2025-04-21 at 1 36 34 PM" src="https://github.com/user-attachments/assets/89651f44-05ac-44e0-b807-7e5cef9a5a72" />
 <br/><br/>
