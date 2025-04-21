@@ -5,14 +5,8 @@ This hands-on workshop introduces healthcare professionals to IoT and cloud tech
 
 ![WhatsApp Image 2025-04-16 at 23 09 13](https://github.com/user-attachments/assets/b2615d2c-d955-4522-8044-af4600dbdf6e)
 
-### 🎯 Learning Outcomes
-✅ Understand the role of IoT and cloud technologies in modern healthcare
-
-✅ Recognize key security risks and challenges in connected medical systems
-
-✅ Explore real-world healthcare applications through interactive activities
-
-✅ Learn best practices for ensuring system reliability and data safety
+### 🎯 Learning Outcomes & Workshop Outline
+<img width="800" alt="Screenshot 2025-04-21 at 3 41 20 AM" src="https://github.com/user-attachments/assets/f841bd70-836b-455b-9fc4-8081aeceb07f" />
 
 ### 💻 Prerequisites
 - Fundamental knowledge of computer operations and navigation
@@ -30,15 +24,15 @@ For our patient monitoring system simulation, we'll leverage Wokwi—a powerful 
 <br/><br/>
 2. Join our dedicated classroom using this link: https://wokwi.com/classroom/join?code=yLQ9TsuZn4 
 <br/><br/>
-<img alt="Screenshot 2025-04-21 at 3 41 20 AM" src="https://github.com/user-attachments/assets/c6ce50e5-19fa-4b54-8d51-30209215e588" />
+<img width="629" alt="Screenshot 2025-04-21 at 1 36 34 PM" src="https://github.com/user-attachments/assets/89651f44-05ac-44e0-b807-7e5cef9a5a72" />
 <br/><br/>
-<img alt="Screenshot 2025-04-21 at 3 41 20 AM" src="https://github.com/user-attachments/assets/20abccb1-6c48-41a6-98a0-86f1087b4254" />
+<img width="626" alt="Screenshot 2025-04-21 at 1 36 42 PM" src="https://github.com/user-attachments/assets/49dffe10-1065-4bae-bab7-9b5e9600f892" />
 <br/><br/>
 
 ### Install Wokwi Private Gateway
-To ensure reliable connectivity during the workshop simulation we'll use the Wokwi Private Gateway. 
+To ensure reliable connectivity during the workshop simulation, we'll use the Wokwi Private Gateway. 
 
-1. Download the gateway application (wokwigw.exe) from: https://drive.google.com/file/d/1BgdI2S2ggcG5d6DtUcaOdjBLsbAlhyiJ/view?usp=sharing
+1. Download the gateway application (***wokwigw.exe***) from: https://drive.google.com/file/d/1BgdI2S2ggcG5d6DtUcaOdjBLsbAlhyiJ/view?usp=sharing
 2. Run the downloaded file. You should see this confirmation screen indicating successful installation:
 <br/><br/>
 <img width="589" alt="Wokwi Gateway Running" src="https://github.com/user-attachments/assets/7ce54a2e-fe9f-4c36-94c1-a74e3d316b5c" />
