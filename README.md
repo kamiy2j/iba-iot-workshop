@@ -80,3 +80,86 @@ The simulation includes these components:
 	- Blood pressure sensors
 	- Oxygen level sensor
 	- Glucose sensor
+
+### 🖥️ Server Setup
+Now that your patient monitoring device is operational, let's set up the server infrastructure to collect, store, and visualize the vital signs data:
+
+1. **Install Docker Desktop**
+   - Download Docker Desktop from: https://www.docker.com/products/docker-desktop/
+   - Follow the installation instructions for Windows
+   - Ensure Docker is running before proceeding to the next step
+
+2. **Download Workshop Files**
+   - Download the workshop files from: [link to workshop files]
+   - Extract the ZIP file to a convenient location on your computer
+   - Open a command prompt in the extracted folder
+
+3. **Start the Server Infrastructure**
+   - Run the following command to start all required services:
+     ```
+     docker-compose up -d
+     ```
+   - This will initialize:
+     - EMQX (MQTT broker) - Receives data from patient monitoring devices
+     - InfluxDB - Time-series database for storing medical data
+     - Telegraf - Data collection agent
+     - Grafana - Visualization platform for medical dashboards
+
+4. **Verify Services**
+   - EMQX Dashboard: http://localhost:18083 (Username: admin, Password: public)
+   - InfluxDB Interface: http://localhost:8086 (Username: admin, Password: adminpass)
+   - Grafana Dashboard: http://localhost:3000 (Username: admin, Password: admin)
+
+5. **Connect Your Patient Monitor**
+   - Your simulated patient monitor will automatically connect to the MQTT broker
+   - Data flow: Patient Monitor → MQTT → InfluxDB → Grafana
+   - The MQTT topic format is: `medical/{patient_id}/vitals`
+
+### 📊 Data Visualization
+Access your personalized patient dashboard:
+
+1. Open Grafana at http://localhost:3000
+2. Log in with username `admin` and password `admin` (you'll be prompted to change this on first login)
+3. Navigate to Dashboards → Patient Monitoring
+4. Select your patient ID from the dropdown to view your personalized dashboard
+
+<img width="800" alt="Grafana Dashboard" src="https://github.com/user-attachments/assets/[placeholder-for-dashboard-image]" />
+
+### 🔐 Security Considerations
+In healthcare IoT deployments, security is paramount:
+
+- **Data Encryption**: All communications between devices and servers should use TLS/SSL
+- **Authentication**: Proper device and user authentication prevents unauthorized access
+- **Authorization**: Role-based access control ensures appropriate data access
+- **Audit Logging**: Comprehensive logging helps track system usage and detect anomalies
+- **Data Privacy**: Compliance with healthcare regulations (HIPAA, GDPR) is essential
+
+For this workshop, we've simplified some security aspects, but in a production environment, these considerations would be fully implemented.
+
+### 📚 Reference Documentation
+For deeper understanding of the technologies used in this workshop, refer to these official resources:
+
+#### MQTT & EMQX
+- [MQTT Essentials](https://www.hivemq.com/mqtt-essentials/) - Comprehensive guide to MQTT protocol
+- [EMQX Documentation](https://www.emqx.io/docs/en/v5.0/) - Official documentation for the EMQX MQTT broker
+- [MQTT in Healthcare](https://www.emqx.com/en/blog/mqtt-for-healthcare-use-cases-and-solutions) - Use cases for MQTT in healthcare applications
+
+#### Time-Series Databases & InfluxDB
+- [InfluxDB Documentation](https://docs.influxdata.com/influxdb/v2.7/) - Official InfluxDB documentation
+- [InfluxDB University](https://university.influxdata.com/) - Free training courses on time-series data
+- [Time-Series Data in Healthcare](https://www.influxdata.com/blog/time-series-data-healthcare/) - Applications of time-series databases in healthcare
+
+#### Visualization & Grafana
+- [Grafana Fundamentals](https://grafana.com/tutorials/grafana-fundamentals/) - Getting started with Grafana
+- [Grafana Dashboard Creation](https://grafana.com/docs/grafana/latest/dashboards/build-dashboards/) - Guide to building effective dashboards
+- [Healthcare Monitoring Templates](https://grafana.com/grafana/dashboards/?search=healthcare) - Pre-built healthcare dashboard templates
+
+#### IoT Security
+- [OWASP IoT Security Guide](https://owasp.org/www-project-iot-security/) - Security best practices for IoT
+- [NIST Guide to Industrial IoT Security](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.pdf) - Comprehensive security framework
+- [FDA Guidance on Medical Device Cybersecurity](https://www.fda.gov/medical-devices/digital-health-center-excellence/cybersecurity) - Regulatory guidance for medical IoT
+
+#### ESP32 & Embedded Development
+- [ESP32 Technical Reference](https://docs.espressif.com/projects/esp-idf/en/latest/) - Official ESP32 documentation
+- [Arduino for ESP32](https://docs.arduino.cc/hardware/esp32) - Using Arduino framework with ESP32
+- [Wokwi Documentation](https://docs.wokwi.com/) - Guide to using the Wokwi simulator
