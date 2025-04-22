@@ -84,6 +84,9 @@ The simulation includes these components:
 ### Complete Wokwi Setup - Video:
 https://github.com/user-attachments/assets/09888734-9163-4787-9000-62bf610b04ed
 
+***Watch on Youtube: https://youtu.be/vSUDStJtLzY***
+<br/>
+
 ### 🖥️ Server Setup
 Now that your patient monitoring device is operational, let's set up the server infrastructure to collect, store, and visualize the vital signs data:
 
