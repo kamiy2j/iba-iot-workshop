@@ -129,7 +129,6 @@ Access your personalized patient dashboard:
 3. Navigate to Dashboards → Patient Monitoring
 4. Select your patient ID from the dropdown to view your personalized dashboard
 
-<img width="800" alt="Grafana Dashboard" src="https://github.com/user-attachments/assets/[placeholder-for-dashboard-image]" />
 
 ### 🔐 Security Considerations
 In healthcare IoT deployments, security is paramount:
