@@ -147,20 +147,18 @@ For deeper understanding of the technologies used in this workshop, refer to the
 #### MQTT & EMQX
 - [MQTT Essentials](https://www.hivemq.com/mqtt-essentials/) - Comprehensive guide to MQTT protocol
 - [EMQX Documentation](https://www.emqx.io/docs/en/v5.0/) - Official documentation for the EMQX MQTT broker
-- [MQTT in Healthcare](https://www.emqx.com/en/blog/mqtt-for-healthcare-use-cases-and-solutions) - Use cases for MQTT in healthcare applications
+- [MQTT in Healthcare](https://www.emqx.com/en/solutions/industries/healthcare-and-life-sciences) - Use cases for MQTT in healthcare applications
 
 #### Time-Series Databases & InfluxDB
 - [InfluxDB Documentation](https://docs.influxdata.com/influxdb/v2.7/) - Official InfluxDB documentation
 - [InfluxDB University](https://university.influxdata.com/) - Free training courses on time-series data
-- [Time-Series Data in Healthcare](https://www.influxdata.com/blog/time-series-data-healthcare/) - Applications of time-series databases in healthcare
 
 #### Visualization & Grafana
 - [Grafana Fundamentals](https://grafana.com/tutorials/grafana-fundamentals/) - Getting started with Grafana
 - [Grafana Dashboard Creation](https://grafana.com/docs/grafana/latest/dashboards/build-dashboards/) - Guide to building effective dashboards
-- [Healthcare Monitoring Templates](https://grafana.com/grafana/dashboards/?search=healthcare) - Pre-built healthcare dashboard templates
 
 #### IoT Security
-- [OWASP IoT Security Guide](https://owasp.org/www-project-iot-security/) - Security best practices for IoT
+- [OWASP IoT Security Guide](https://owasp.org/www-project-iot-security-testing-guide/) - Security best practices for IoT
 - [NIST Guide to Industrial IoT Security](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.pdf) - Comprehensive security framework
 - [FDA Guidance on Medical Device Cybersecurity](https://www.fda.gov/medical-devices/digital-health-center-excellence/cybersecurity) - Regulatory guidance for medical IoT
 
