@@ -217,7 +217,7 @@ Thank you for participating!
 ## 🧑‍💻 Our Workshop Team
 **Dr. Faisal Iradat** - ***Stack Overlord***
 
-Guided our student team throughout the workshop development, providing mentorship and technical direction.
+Guided the team throughout the workshop development, providing mentorship and technical direction.
 
 **Kamran Shahid** - ***Wokwi Whisperer***
 
