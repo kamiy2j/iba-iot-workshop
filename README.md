@@ -198,7 +198,7 @@ For deeper understanding of the technologies used in this workshop, refer to the
 - [Arduino for ESP32](https://docs.arduino.cc/hardware/esp32) - Using Arduino framework with ESP32
 - [Wokwi Documentation](https://docs.wokwi.com/) - Guide to using the Wokwi simulator
 
-<br/><br/>
+<br/>
 ## 📝 Workshop Feedback
 We value your thoughts on this Connected Healthcare IoT workshop! Your feedback helps us improve future sessions and develop new content tailored to your needs.
 Please complete our short feedback form:
@@ -212,3 +212,24 @@ Your responses will help us:
 - Plan future workshop topics
 
 Thank you for participating!
+<br/>
+## 🧑‍💻 Our Workshop Team
+**Dr. Faisal Iradat** - ***Stack Overlord***
+
+Guided our student team throughout the workshop development, providing mentorship and technical direction.
+
+**Kamran Shahid** - ***Wokwi Whisperer***
+
+Responsible for designing and implementing the Wokwi-based patient monitoring simulation system.
+
+**Ammar & Ahmer** - ***Cloud Commanders***
+
+Led the development of cloud connectivity solutions and MQTT broker configuration.
+
+**Maaz** - ***Viz Wizard***
+
+Created the Grafana dashboards and visualization components.
+
+**Moeen & Ahmed** - ***Compliance Crusader***
+
+[Did some complaince stuff]
