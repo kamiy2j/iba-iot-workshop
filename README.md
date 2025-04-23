@@ -1,4 +1,5 @@
 # Connected healthcare: IoT, Cloud, and Security in digital age
+**"With IoT in healthcare, every heartbeat becomes a data point in a revolutionary new way to live, heal, and thrive."**
 
 ### 🌟 Overview
 This hands-on workshop introduces healthcare professionals to IoT and cloud technologies in modern healthcare through a practical patient monitoring system simulation. Participants will learn how connected medical devices work, explore cloud integration in healthcare, and understand security considerations in medical IoT systems.
