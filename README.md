@@ -132,16 +132,45 @@ Access your personalized patient dashboard:
 4. Select your patient ID from the dropdown to view your personalized dashboard
 
 
-### 🔐 Security Considerations
-In healthcare IoT deployments, security is paramount:
-
-- **Data Encryption**: All communications between devices and servers should use TLS/SSL
-- **Authentication**: Proper device and user authentication prevents unauthorized access
-- **Authorization**: Role-based access control ensures appropriate data access
-- **Audit Logging**: Comprehensive logging helps track system usage and detect anomalies
-- **Data Privacy**: Compliance with healthcare regulations (HIPAA, GDPR) is essential
 
 For this workshop, we've simplified some security aspects, but in a production environment, these considerations would be fully implemented.
+## 🛡️ Compliance
+
+Ensuring compliance with international and local regulations is a critical component of our healthcare IoT system. This section outlines how our Wokwi simulation and infrastructure align with key standards:
+
+### 📋 Key Regulatory Standards
+
+- **ISO 27001**  
+  International standard for information security management. It ensures data confidentiality, integrity, and availability — especially crucial for transmitting patient data over networks.
+
+- **ISO 27799**  
+  Tailored for healthcare, this standard extends ISO 27001 by addressing the specific security needs of medical environments like hospitals and clinics.
+
+- **HIPAA (Health Insurance Portability and Accountability Act)**  
+  U.S. regulation protecting patient health information (PHI). It emphasizes encryption, audit logging, and strict access controls.
+
+- **GDPR (General Data Protection Regulation)**  
+  European regulation that champions user data privacy and consent. Essential if any patient-identifiable information is involved.
+
+- **HL7 & FHIR**  
+  Standards for exchanging healthcare information electronically. They facilitate smooth, secure integration with hospital databases.
+
+### 🧩 Compliance in Practice: Our Wokwi IoT Project
+
+- **🔐 Secure Transmission**  
+  Patient vitals and other sensor data are transmitted via TLS-encrypted channels, fulfilling ISO 27001 and HIPAA transmission security mandates.
+
+- **📄 Audit Logging & Data Integrity**  
+  Every data packet is timestamped and logged in the cloud, enabling traceability in line with HIPAA and GDPR requirements.
+
+- **🔑 Role-Based Access Control (RBAC)**  
+  Access to Grafana dashboards is limited based on user roles (e.g., doctors, admins), enforcing ISO 27799 and HIPAA’s least privilege principle.
+
+- **🕵️ Anonymization by Design**  
+  Even simulated datasets are anonymized to uphold GDPR’s privacy-by-design philosophy.
+
+- **📊 Real-Time Alerts & Monitoring**  
+  Grafana alerts on abnormal vitals are logged, enabling proactive risk management and ongoing compliance auditing.
 
 ### 📚 Reference Documentation
 For deeper understanding of the technologies used in this workshop, refer to these official resources:
