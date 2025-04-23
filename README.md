@@ -84,9 +84,9 @@ The simulation includes these components:
 	- Glucose sensor
 
 ### Complete Wokwi Setup - Video:
-https://github.com/user-attachments/assets/09888734-9163-4787-9000-62bf610b04ed
+https://github.com/user-attachments/assets/8529ab4b-f59e-418d-af2a-c2aa7de75782
 
-***Watch on Youtube: https://youtu.be/vSUDStJtLzY***
+***Watch on YouTube: https://youtu.be/fxoPGNgDfEU***
 <br/>
 
 ### 🖥️ Server Setup
