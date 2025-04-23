@@ -208,8 +208,7 @@ Please complete our short feedback form:
 Your responses will help us:
 
 - Assess the effectiveness of the workshop content
-- Understand which components were most valuable
 - Identify areas for improvement
 - Plan future workshop topics
 
-Thank you for participating and helping us enhance our educational materials!
+Thank you for participating!
