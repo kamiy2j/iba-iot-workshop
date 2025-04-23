@@ -196,9 +196,8 @@ For deeper understanding of the technologies used in this workshop, refer to the
 #### ESP32 & Embedded Development
 - [ESP32 Technical Reference](https://docs.espressif.com/projects/esp-idf/en/latest/) - Official ESP32 documentation
 - [Arduino for ESP32](https://docs.arduino.cc/hardware/esp32) - Using Arduino framework with ESP32
-- [Wokwi Documentation](https://docs.wokwi.com/) - Guide to using the Wokwi simulator
+- [Wokwi Documentation](https://docs.wokwi.com/) - Guide to using the Wokwi simulator<br/><br/>
 
-<br/>
 ## 📝 Workshop Feedback
 We value your thoughts on this Connected Healthcare IoT workshop! Your feedback helps us improve future sessions and develop new content tailored to your needs.
 Please complete our short feedback form:
