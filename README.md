@@ -58,10 +58,10 @@ Now let's set up your personal patient monitoring system:
 <img width="829" alt="Screenshot 2025-04-17 at 12 01 50 AM" src="https://github.com/user-attachments/assets/5a1333d6-a8a2-4a5d-a14b-1ba93838b94b" />
 
 4. Personalize your simulation by finding the patient information section in the code editor:<br/><br/>
-<img width="456" alt="Screenshot 2025-04-16 at 11 52 52 PM" src="https://github.com/user-attachments/assets/27be5bfc-3f30-4790-b5f7-1ce20174600d" /><br/><br/>
-Replace **John Doe** and **patient001** with your name and ID.<br/><br/>
+<img width="456" alt="Screenshot 2025-04-16 at 11 52 52 PM" src="https://github.com/user-attachments/assets/0309d1bf-d2d2-465f-956b-a69ef383b924" /><br/><br/>
+Replace **John Doe** and **patient000** with your name and ID. Your ID is provided in the sheet that we shared on WhatsApp.<br/><br/>
 
-5. Launch your simulation by clicking the green "Start the simulation" button. Your patient monitoring dashboard will initialize and display vital signs.
+6. Launch your simulation by clicking the green "Start the simulation" button. Your patient monitoring dashboard will initialize and display vital signs.
 
 <img width="270" alt="Screenshot 2025-04-16 at 11 56 22 PM" src="https://github.com/user-attachments/assets/aa7407df-2b59-4fc7-bc09-7aea4ab68802" />
 <br/><br/>
