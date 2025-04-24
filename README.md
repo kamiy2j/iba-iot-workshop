@@ -231,6 +231,6 @@ Led the development of cloud connectivity solutions and MQTT broker configuratio
 
 Created the Grafana dashboards and visualization components.
 
-**Moeen & Siddique** - ***Compliance Crusader***
+**Moeen, Faraz & Siddique** - ***Compliance Crusader***
 
 [Did some complaince stuff]
