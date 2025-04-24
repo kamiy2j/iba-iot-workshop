@@ -54,7 +54,7 @@ Now let's set up your personal patient monitoring system:
 <img width="442" alt="Screenshot 2025-04-16 at 11 51 21 PM" src="https://github.com/user-attachments/assets/79d7a373-6a10-43bb-9450-a7a2d6fc7d20" /><br/><br/>
 
 
-3. Enable the private gateway by pressing `F1 (or Function + F1)`, then typing and selecting ***Private Wokwi IoT Gateway***.
+3. Click on the code section. Enable the private gateway by pressing `F1 (or Function + F1)`, then typing and selecting ***Private Wokwi IoT Gateway***.
 <img width="829" alt="Screenshot 2025-04-17 at 12 01 50 AM" src="https://github.com/user-attachments/assets/5a1333d6-a8a2-4a5d-a14b-1ba93838b94b" />
 
 4. Personalize your simulation by finding the patient information section in the code editor:<br/><br/>
