@@ -59,7 +59,7 @@ Now let's set up your personal patient monitoring system:
 
 4. Personalize your simulation by finding the patient information section in the code editor:<br/><br/>
 <img width="456" alt="Screenshot 2025-04-16 at 11 52 52 PM" src="https://github.com/user-attachments/assets/0309d1bf-d2d2-465f-956b-a69ef383b924" /><br/><br/>
-Replace **John Doe** and **patient000** with your name and ID. Your ID is provided in the sheet that we shared on WhatsApp.<br/><br/>
+Replace **John Doe** and **patient000** with your name and ID and click the "Save" button. ***Your ID is provided in the sheet that we shared on WhatsApp.***<br/><br/>
 
 6. Launch your simulation by clicking the green "Start the simulation" button. Your patient monitoring dashboard will initialize and display vital signs.
 
