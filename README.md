@@ -127,9 +127,9 @@ Now that your patient monitoring device is operational, let's set up the server 
 Access your personalized patient dashboard:
 
 1. Open Grafana at http://localhost:3000
-2. Log in with username `admin` and password `admin` (you'll be prompted to change this on first login)
-3. Navigate to Dashboards → Patient Monitoring
-4. Select your patient ID from the dropdown to view your personalized dashboard
+2. Log in with username `{Your Patient ID}` and password `{Your Patient ID}` (Since this is an experimental account, ignore browser prompts)
+3. Navigate to Dashboards → Medical Dashboard
+4. Select your desired Vitals from the dropdown to view your personalized dashboard
 
 
 
